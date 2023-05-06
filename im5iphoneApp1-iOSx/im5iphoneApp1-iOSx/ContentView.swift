@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  im5iphoneApp1-iOS
+//  im5iphoneApp1-iOSx
 //
 //  Created by admin on 6/5/2023.
 //
@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, worldex!")
+            Text("Hello, world123!")
         }
         .padding()
     }
