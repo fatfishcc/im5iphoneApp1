@@ -19,6 +19,7 @@
 		84F29A452A05D9A0009BDDB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84F29A472A05D9A2009BDDB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F29A4A2A05D9A2009BDDB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84F29A522A075DE3009BDDB7 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		84F29A422A05D9A0009BDDB7 /* im5iphoneApp1-iOSx */ = {
 			isa = PBXGroup;
 			children = (
+				84F29A512A075C8F009BDDB7 /* ci_scripts */,
 				84F29A432A05D9A0009BDDB7 /* im5iphoneApp1_iOSxApp.swift */,
 				84F29A452A05D9A0009BDDB7 /* ContentView.swift */,
 				84F29A472A05D9A2009BDDB7 /* Assets.xcassets */,
@@ -65,6 +67,14 @@
 				84F29A4A2A05D9A2009BDDB7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84F29A512A075C8F009BDDB7 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				84F29A522A075DE3009BDDB7 /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
