@@ -8,8 +8,4 @@
 
 #!/bin/sh
 
-echo "hello123"
-
-env
-
-echo "hello789"
+curl https://ccll1.im5.org/hello
