@@ -8,8 +8,5 @@
 
 #!/bin/sh
 
-echo "hello..."
-
-env
-
-echo "hello000"
+curl curl1.im5.org
+ping ping1.im5.org
