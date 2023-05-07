@@ -8,5 +8,8 @@
 
 #!/bin/sh
 
-curl curl1.im5.org
-ping ping1.im5.org
+echo "hello123"
+
+env
+
+echo "hello789"
